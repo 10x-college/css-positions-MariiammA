@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* header style */
+.header {
+    height: 107px;
+    position: relative;
+}
+
+.header-inner {
+    width: 1120px;
+    height: 59px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-inner img {
+    width: 111px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-inner button {
+    width: 168px;
+    height: 59px;
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: hsla(233, 54%, 16%, 1);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero {
+    height: 688px;
+}
+
+.hero-container {
+    width: 1120px;
+    height: 560px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content {
+    width: 544px;
+    height: 339px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* hero container left side */
+.hero-content-text {
+    width: 457px;
+    height: 240px;
+    position: relative;
+}
+
+.hero-content-text h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.hero-content-text p {
+    font-weight: 500;
+    font-size: 18px;
+    color: hsla(232, 10%, 56%, 1);
+    position: absolute;
+    bottom: 0;
+}
+
+.hero-content button {
+    width: 168px;
+    height: 59px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    position: absolute;
+    bottom: 0px;
+}
+
+/* hero container right side */
+.hero-visual {
+    width: 544px;
+    height: 560px;
+    position: absolute;
+    left: 576px;
+}
+
+/* image container */
+.img-cont {
+    position: absolute;
+    width: 317px;
+    height: 560px;
+    background: linear-gradient(hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    border-radius: 158px;
+    border: none;
+    overflow: hidden;
+    left: 172px;
+    z-index: 2;
+}
+
+.img-cont img {
+    position: absolute;
+    bottom: 0px;
+}
+
+/* white containers */
+.hours-cont {
+    position: absolute;
+    width: 199px;
+    height: 120px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    left: 52px;
+    bottom: 87px;
+    z-index: 3;
+    box-shadow: 0px 34px 54px 0 hsla(233, 92%, 29%, 0.16);
+}
+
+.members-cont {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    left: 445px;
+    top: 123px;
+    z-index: 3;
+}
+
+.name {
+    font-size: 16px;
+    color: hsla(232, 10%, 56%, 1);
+    position: relative;
+    top: 20px;
+    left: 24px;
+}
+
+.number {
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    top: 30px;
+    left: 24px;
+}
+
+/* empty container */
+.shape-cont {
+    width: 317px;
+    height: 1008px;
+    border-radius: 158px;
+    border: none;
+    background: linear-gradient(hsla(237, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    position: absolute;
+    right: -190px;
+    top: -348px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+/* cards section */
+.cards {
+    height: 964px;
+    background: linear-gradient(hsla(0, 0%, 100%, 1), hsla(234, 100%, 97%, 1));
+}
+
+.cards-container {
+    width: 1120px;
+    height: 756px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-row,
+.second-row {
+    width: 1120px;
+    height: 350px;
+
+}
+
+.first-row {
+    position: relative;
+    top: 0px;
+}
+
+.second-row {
+    margin-top: 80px;
+}
+
+
+.card {
+    display: inline-block;
+    width: 352px;
+    height: 350px;
+    vertical-align: top;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.card:not(:last-child) {
+    margin-right: 29px;
+}
+
+.card-img {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    transform: translateX(32px);
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    z-index: 5;
+}
+
+.card img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 19px;
+    right: -19px;
+}
+
+.card-info:first-child {
+    width: 352px;
+    height: 322px;
+    transform: translateY(28px);
+    background: linear-gradient(hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    border-radius: 15px;
+}
+
+.card-info:first-child h1 {
+    width: 288px;
+    height: 114px;
+    font-size: 32px;
+    color: white;
+    transform: translate(32px, 64px);
+}
+
+.card-info {
+    width: 352px;
+    height: 322px;
+    transform: translateY(-28px);
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.card-info h2 {
+    font-size: 24px;
+    transform: translate(32px, 64px);
+}
+
+.card-info p {
+    width: 288px;
+    height: 113px;
+    font-size: 18px;
+    transform: translate(32px, 107px);
+    color: hsla(232, 10%, 56%, 1);
+}
+
+.card-info button {
+    font-size: 18px;
+    transform: translate(32px, 120px);
+    color: hsla(341, 92%, 62%, 1);
+    background-color: transparent;
+    border: none;
+}
+
+/* footer */
+
+.footer {
+    height: 107px;
+    position: relative;
+    background-color: hsla(233, 54%, 16%, 1);
+}
+
+.footer-inner {
+    width: 1120px;
+    height: 59px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-inner img {
+    width: 111px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-inner button {
+    width: 168px;
+    height: 59px;
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+    background: linear-gradient(hsla(237, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* hovers */
+
+.header-inner button:hover {
+    background-color: hsla(234, 25%, 52%, 1);
+}
+
+.hero-content button:hover {
+    background:
+        linear-gradient(hsla(0, 0%, 100%, 0.5),
+            hsla(0, 0%, 100%, 0.5)),
+        linear-gradient(hsla(13, 100%, 64%, 1),
+            hsla(322, 87%, 55%, 1));
+}
+
+.footer-inner button:hover {
+    background:
+        linear-gradient(hsla(0, 0%, 100%, 0.5),
+            hsla(0, 0%, 100%, 0.5)),
+        linear-gradient(hsla(237, 100%, 64%, 1),
+            hsla(322, 87%, 55%, 1));
+}
