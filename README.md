@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y11dLxWO)
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AK-am-zN)
 
 ### დავალება: "CSS Positions" - დიზაინის იმპლემენტაცია
@@ -7,6 +8,8 @@
 
 🔗 **Figma Link:** [CSS Positions](https://www.figma.com/design/drIPd1HDzUepsujFioe1X6/profile-card-component?node-id=1-3&p=f
 https://www.figma.com/design/opLphKmHq2loVdSZdqGywv/skilled-elearning-landing-page?node-id=4-2&p=f)
+
+
 
 ---
 
@@ -27,14 +30,16 @@ https://www.figma.com/design/opLphKmHq2loVdSZdqGywv/skilled-elearning-landing-pa
 2. ატვირთეთ ეს სურათი თქვენს GitHub რეპოზიტორიაში (კოდის ფაილებთან ერთად).
 
 ![Design Preview](./preview.png)
+![First Design](preview1.png)
+![Second Design](preview2.png)
 
 #### 🚀 (Optional) ჰოსტინგი
 
 სასურველია (მაგრამ არასავალდებულო) ნამუშევრის ატვირთვა **GitHub Pages**-ზე, რათა შედეგი ლინკის სახით იყოს ხელმისაწვდომი.
 გითჰაბ ფეიჯების გამოყენების შემთხვევაში ასევე README-ფაილში დაამატეთ ლინკი მოცემულ ადგილას ქვემოთ
 
-ლინკის ადგილი:["ლინკი დაამატე აქ"]
-
+ლინკის ადგილი:["[ლინკი დაამატე აქ](https://mariiamma.github.io/profile-card/)"]
+ლინკის ადგილი:["[ლინკი დაამატე აქ](https://mariiamma.github.io/elearning-page/)"]
 ---
 
 #### ✅ მიღების კრიტერიუმები (Acceptance Criteria)
